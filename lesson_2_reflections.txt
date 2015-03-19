@@ -5,4 +5,8 @@ Q - How is the staging area different from the working directory and the reposit
 Ans - The staging area is a temporary place holder where files are placed before checking them into the repository. It allows one final change locally before comitting in the files in the repository.
 
 Q - How can you use the staging area to make sure you have one commit per logical change?
-Ans - A logical change can be a simple one liner or few lines across multiple files. The logical change can be added to the staging area using the git add command. Now one can go about working on other changes. But when it is the time to commit, the files in the staging representing one logical change will be comitted first. By making use of 'git diff --staged' command, one can be sure of the changes being committed to the repository. 
+Ans - A logical change can be a simple one liner or few lines across multiple files. The logical change can be added to the staging area using the git add command. Now one can go about working on other changes. But when it is the time to commit, the files in the staging representing one logical change will be comitted first. By making use of 'git diff --staged' command, one can be sure of the changes being committed to the repository.
+
+Q - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans - There are scenarios where in I would want to add a new experimental feature, create some specific changes for a customer, etc. In such scenario, one would have to branch the code. The branch feature helps keep the master branch clean which is usually compilable immediately. If for e.g. I were to create a new feature in my spare time without my changes affecting the current code base, I would create a branch and then make changes in the same. Once done and tested, I may want to merge back to the master branch. Meanwhile others can keep checking in their changes to the master branch.
+
