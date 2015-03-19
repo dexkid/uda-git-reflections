@@ -1,0 +1,5 @@
+Q - What happens when you initialize a repository? Why do you need to do it?
+Ans - During initialization of repository, git software is let known that a new repository is about to be created. So please keep sufficient resources in place. It also allows the repository to under the tree structure about to be committed in.
+
+Q - How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans - The staging area is a temporary place holder where files are placed before checking them into the repository. It allows one final change locally before comitting in the files in the repository.
