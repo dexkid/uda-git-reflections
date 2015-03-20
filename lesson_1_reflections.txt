@@ -1,3 +1,5 @@
+
+Q - 
 By viewing the diff between an older version and newer version of file, 
 I was able to determine what were the changes made in the new file. 
 Though it was not commented but every change that would have been done to 
@@ -5,13 +7,13 @@ the old file must have been commented and/or captured in the some manner.
 
 Q - How could having easy access to the entire history of a file make 
 you a more efficient programmer in the long term?
-
-Ans - By viewing the history of a file we can see how our thoughts have evolved and been converted to code. The changes in system design will be reflected when we diff between different revisions of the same code file.
+Ans - By viewing the history of a file we can see how our thoughts have evolved 
+and been converted to code. The changes in system design will be reflected when 
+we diff between different revisions of the same code file.
 
 Q - What do you think are the pros and cons of manually choosing when to 
 create a commit, like you do in Git, vs having versions automatically saved, 
 like Google docs does?
-
 Ans - 
 Pros - 
 1 - Only logical changes are captured. 
@@ -28,16 +30,24 @@ multiple files in one commit, while others, like Google Docs, treat each
 file separately?
 Ans - Allowing multiple files to be saved in one commit ensures that each commit
 maps to a logical modification of the project files while coding. 
-Google Docs only ends up saving each file for every modification made automatically as the intention is to save modifications automatically without the user 
-having to explicity invoke them. For e.g. if I were to write a novel and before I could save it google docs, the internet got disconnected then the entire chapter that I just typed out would be left in a unsaved in the current window. Only once internet connection is restored, the file contents would be synced to the backend. 
+Google Docs only ends up saving each file for every modification made automatically 
+as the intention is to save modifications automatically without the user having to 
+explicity invoke them. For e.g. if I were to write a novel and before I could save it to
+google docs, the internet got disconnected then the entire chapter that I just typed out 
+would be left in a unsaved in the current window. Only once internet connection is restored, 
+he file contents would be synced to the backend. 
 
 
 Q - How can you use the commands git log and git diff to view the 
 history of files?
-Ans - By making use of "git log", we can find out all the changes / commits that were done to the particular repository. Going through the log messages for each commit, we can understand how the repository was modified from the previous state. The "git diff" command will help to show the details of the changes between two revisions of the repository.
+Ans - By making use of "git log", we can find out all the changes / commits that were done 
+to the particular repository. Going through the log messages for each commit, 
+we can understand how the repository was modified from the previous state. 
+The "git diff" command will help to show the details of the changes between two revisions of the repository.
 
 Q - How might using version control make you more confident to make changes that could break something? 
-Ans - If my changes break some piece of code, version control system will help me identify the change that has introduced the problem so that the problem can be analyzed and correct with ease. 
+Ans - If my changes break some piece of code, version control system will help me 
+identify the change that has introduced the problem so that the problem can be analyzed and correct with ease. 
 
 Q - Now that you have your workspace set up, what do you want to try using Git for?
 Ans - I would want to use Git for version controlling my projects at Udacity.
