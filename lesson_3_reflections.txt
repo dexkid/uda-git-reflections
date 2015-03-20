@@ -10,10 +10,20 @@ Having Git automatically update / sync with remote repo could corrupt my local
 file and overwrite the necessary changes. Hence git pull will be done manually.
 
 
-Describe the differences between forks, clones, and branches.  When would you
+Q - Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
+Ans - Cloning a repo means copying a repo and its commits to a different place.
+Fork is a special type of cloning on Github where in user2 can clone a user1 repo
+into his Github account on Github servers as user2 can't make modifications
+to user1 repo. In branching, the commits now diverge from the "master" branch.
 
-    Fill in your answer here
+When I am creating a new feature or solving a bug, I will use branch.
+In order to ensure that I can access and modify my code from any machine,
+I will clone it to Github or some online git service provider.
+In case I have to start my work from a known code base on Github (like some open source
+project), I will fork it to my Github account first.
+
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
