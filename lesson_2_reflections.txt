@@ -1,20 +1,45 @@
 Q - What happens when you initialize a repository? Why do you need to do it?
-Ans - During initialization of repository, git software is let known that a new repository is about to be created. So please keep sufficient resources in place. It also allows the repository to under the tree structure about to be committed in.
+Ans - During initialization of repository, git software is let known that a new repository 
+is about to be created. So please keep sufficient resources in place. It also allows the 
+repository to under the tree structure about to be committed in.
 
-Q - How is the staging area different from the working directory and the repository? What value do you think it offers?
-Ans - The staging area is a temporary place holder where files are placed before checking them into the repository. It allows one final change locally before comitting in the files in the repository.
+Q - How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+Ans - The staging area is a temporary place holder where files are placed before checking 
+them into the repository. It allows one final change locally before comitting in the files in the repository.
 
 Q - How can you use the staging area to make sure you have one commit per logical change?
-Ans - A logical change can be a simple one liner or few lines across multiple files. The logical change can be added to the staging area using the git add command. Now one can go about working on other changes. But when it is the time to commit, the files in the staging representing one logical change will be comitted first. By making use of 'git diff --staged' command, one can be sure of the changes being committed to the repository.
+Ans - A logical change can be a simple one liner or few lines across multiple files. 
+The logical change can be added to the staging area using the git add command. 
+Now one can go about working on other changes. But when it is the time to commit, 
+the files in the staging representing one logical change will be comitted first. 
+By making use of 'git diff --staged' command, one can be sure of the changes being committed to the repository.
 
-Q - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Ans - There are scenarios where in I would want to add a new experimental feature, create some specific changes for a customer, etc. In such scenario, one would have to branch the code. The branch feature helps keep the master branch clean which is usually compilable immediately. If for e.g. I were to create a new feature in my spare time without my changes affecting the current code base, I would create a branch and then make changes in the same. Once done and tested, I may want to merge back to the master branch. Meanwhile others can keep checking in their changes to the master branch.
+Q - What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+Ans - There are scenarios where in I would want to add a new experimental feature, 
+create some specific changes for a customer, etc. In such scenario, one would have to 
+branch the code. The branch feature helps keep the master branch clean which is usually 
+compilable immediately. If for e.g. I were to create a new feature in my spare time 
+without my changes affecting the current code base, I would create a branch and then 
+make changes in the same. Once done and tested, I may want to merge back to the master branch. 
+Meanwhile others can keep checking in their changes to the master branch.
 
 Q - How do the diagrams help you visualize the branch structure?
-Ans - The diagrams help us understand at what commit # did the branch start at. It makes it easier for one to understand the current repository structure.
+Ans - The diagrams help us understand at what commit # did the branch start at. 
+It makes it easier for one to understand the current repository structure.
 
-Q - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-Ans - The result is one branch containing all the changes from the branch into the main. Some times there might be conflicts which we will have to resolve manually. The merge is represented as absorbing the changes in the branch to the main / master. Hence the master branch continues while the old branch can be discarded by 'git branch -d branchname'.
+Q - What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+Ans - The result is one branch containing all the changes from the branch into the main. 
+Some times there might be conflicts which we will have to resolve manually. 
+The merge is represented as absorbing the changes in the branch to the main / master. 
+Hence the master branch continues while the old branch can be discarded by 'git branch -d branchname'.
 
 Q - What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-Ans - Automatic merging feature helps programmer spend less time worrying about failing to include some changes while merging. The obvious diffs are included automatically. Merging manually is needed in case there is conflict. A conflict is a situation that arises because the same line number region has two different contents. Git in this case doesn't know what is to be done. So it presents the code from branch1, branch2 and current changes with unique markings in the files so that programmer can easily look up conflicting pieces of code.
+Ans - Automatic merging feature helps programmer spend less time worrying about failing to 
+include some changes while merging. The obvious diffs are included automatically. 
+Merging manually is needed in case there is conflict. A conflict is a situation that arises 
+because the same line number region has two different contents. Git in this case doesn't know 
+what is to be done. So it presents the code from branch1, branch2 and current changes with 
+unique markings in the files so that programmer can easily look up conflicting pieces of code.
