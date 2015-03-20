@@ -41,7 +41,8 @@ do a code review. This is going to take an absurd amount of time/effort if the c
 is going to be huge.
 
 
-When would you want to make changes in a separate branch rather than directly in
+Q - When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+Ans - When working locally or as sole contributor to a project, it is better to work on
+master directly. When we are collaboratively coding and creating new features and solving
+bugs, it is better to have a branch.
