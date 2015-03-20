@@ -25,10 +25,11 @@ project), I will fork it to my Github account first.
 
 
 
-What is the benefit of having a copy of the last known state of the remote
+Q- What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+Ans - If the last known state of the remote is stored locally then the local user
+knows which are the changes s/he has done after the sync. This helps them to merge
+correctly later on.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
