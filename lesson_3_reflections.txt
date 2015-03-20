@@ -31,10 +31,15 @@ Ans - If the last known state of the remote is stored locally then the local use
 knows which are the changes s/he has done after the sync. This helps them to merge
 correctly later on.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+Q - How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+Ans - I would make use of emails, chats and telephones in order to coordinate with
+someone else. It wouldn't be easier as I would have to send across all the files
+of my project to the person, with and without the modifications. Maybe a base code
+and list of patches to apply. Then tell them to apply uptil patch # following which they may
+do a code review. This is going to take an absurd amount of time/effort if the code base
+is going to be huge.
 
-    Fill in your answer here
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
